@@ -1,4 +1,5 @@
 FROM docker:dind
+LABEL org.opencontainers.image.source=https://github.com/samulumio/codehost
 
 # Enable repositories for image creation
 RUN set -x \
