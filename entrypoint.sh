@@ -4,6 +4,7 @@ trap exit INT
 trap exit TERM
 
 echo "Setting up codehost"
+chown codehost /config
 cd /config
 touch "Note: all files are probably hidden"
 
